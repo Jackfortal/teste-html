@@ -1,12 +1,70 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cabeçalho</title>
+    <title>Inputs</title>
 </head>
 <body>
-    <h1>Olá mundo!</h1>
+    <legend><h1>Formulário de Cadastro</h1></legend>
+
+    <fieldset>
+        <legend>Dados pessoais:</legend>
+            <label for="name">Name:</label>
+            <input type="name" name="name" id="name">
+            <br><br>
+            <label for="sexo">Sexo:</label>
+            <input type="radio" name="masculino" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="feminino" id="feminino">
+            <label for="feminino">Feminino</label>
+            <br><br>
+            <label for="estado civil">Estado Civil:</label>
+            <select name="estado civil" id="estado civil">
+                <option value=""></option>
+                <option value="">Casado</option>
+                <option value="">Solteiro</option>
+                <option value="">Junto</option>
+                <option value="">Amancebado</option>
+                <option value="">Solto na bagaçeira</option>
+            </select>
+            <br><br>
+        <text>Conhecimento em Informática</text> <br>
+            <input type="checkbox" name="windows" id="windows">
+            <label for="windows">Windows</label>
+
+            <input type="checkbox" name="word" id="word">
+            <label for="word">Word</label>
+
+            <input type="checkbox" name="excel" id="excel">
+            <label for="excel">Excel</label> <br>
+
+            <input type="checkbox" name="power point" id="power point">
+            <label for="power point">Power Point</label>
+
+            <input type="checkbox" name="acess" id="acess">
+            <label for="acess">Acess</label>
+
+            <input type="checkbox" name="internet" id="internet">
+            <label for="internet">Internet</label>
+            <br>
+            <br>
+
+            <legend>Conte um pouco mais sobre você</legend>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Dados de Acesso:</legend>
+
+        <label for="email">E-mail</label>
+        <input type="text" name="" id="" placeholder="Digite seu E-mail">
+        <br><br>
+        <label for="senha">Senha</label>
+        <input type="text" name="" id="">
+        <br><br>
+        <label for="confirmação">Confirmação</label>
+        <input type="text" name="" id="">
+    </fieldset>
     
 </body>
 </html>
